@@ -5,7 +5,7 @@
     },
     "core": "arduino",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DARDUINO_SAMD_ZERO -D__SAMD21G18A__",
+    "extra_flags": "-DARDUINO_SAMD_ZERO -DEBF_USE_INTERRUPTS -D__SAMD21G18A__",
     "f_cpu": "48000000L",
     "hwids": [
       [
@@ -52,3 +52,4 @@
   "url": "https://www.4project.co.il",
   "vendor": "4Project.co.il"
 }
+
