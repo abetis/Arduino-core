@@ -16,7 +16,7 @@
 
 # Plug-And-Play SAMD21 Development board
 # ---------------------------------------
-pnp_samd21_dev.name=PlugAndPlay SAMD21 Dev
+pnp_samd21_dev.name=Plug-n-Play SAMD21 Dev
 pnp_samd21_dev.vid.0=0x04D8
 pnp_samd21_dev.pid.0=0xE525
 pnp_samd21_dev.vid.1=0x04D8
@@ -30,7 +30,7 @@ pnp_samd21_dev.upload.wait_for_upload_port=true
 pnp_samd21_dev.upload.native_usb=true
 pnp_samd21_dev.build.mcu=cortex-m0plus
 pnp_samd21_dev.build.f_cpu=48000000L
-pnp_samd21_dev.build.usb_product="PlugAndPlay SAMD21 Dev"
+pnp_samd21_dev.build.usb_product="Plug-n-Play SAMD21 Dev"
 pnp_samd21_dev.build.usb_manufacturer="4project.co.il"
 pnp_samd21_dev.build.board=SAMD_ZERO
 pnp_samd21_dev.build.core=arduino

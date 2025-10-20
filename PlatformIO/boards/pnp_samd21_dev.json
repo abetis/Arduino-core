@@ -15,7 +15,7 @@
     ],
     "mcu": "samd21g18a",
     "system": "samd",
-    "usb_product": "PlugAndPlay SAMD21 Dev",
+    "usb_product": "Plug-n-Play SAMD21 Dev",
     "variant": "pnp_samd21_dev",
     "variants_dir" : "variants"
   },
@@ -31,7 +31,7 @@
   "platforms": [
     "atmelsam"
   ],
-  "name": "PlugAndPlay SAMD21 Dev",
+  "name": "Plug-n-Play SAMD21 Dev",
   "upload": {
     "disable_flushing": true,
     "maximum_ram_size": 32768,

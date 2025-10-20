@@ -1,4 +1,4 @@
-This repository contains all needed files to provide support for Arudino IDE and PlatformIO environments for the Plug-And-Play boards.
+This repository contains all needed files to provide support for Arudino IDE and PlatformIO environments for the Plug-n-Play boards.
 
 ## Arduino IDE support
 Assuming you already have the Arduino IDE installed.
@@ -24,7 +24,7 @@ PlatformIO is a VSCode plugin that provides compilation and programming of devel
 
 Assuming you have already the VSCode and PlatformIO installed. There are many tutorials online.
 
-PlatformIO have a built-in support for many popular boards. In order to use a custom board, such as PlugAndPlay board in our case, you will have to copy some files into PlatformIO environment and into your project directory.
+PlatformIO have a built-in support for many popular boards. In order to use a custom board, such as Plug-n-Play board in our case, you will have to copy some files into PlatformIO environment and into your project directory.
 
 ### First step
 First, locate your PlatformIO `core_dir`, where all the platform and environment files are stored.\
@@ -33,18 +33,18 @@ On Windows it's `%HOMEPATH%\.platformio`.
 
 Copy the content of the [PlatformIO](https://github.com/4project-co-il/Arduino-core/tree/main/PlatformIO) directory to the `core_dir` on your computer.\
 There are 2 directories that have to be copied:\
-`boards` that include the declaration files for the custom boards, 
+`boards` that include the declaration files for the custom boards,
 and `variants` that include boards hardware definitions, such as enumeration of the pins, what pin will serve an the internal LED, memory mappings, communication instances and many more other definitions.
 
 Restart the VSCode program if you had it open, to reload the changes.
 
-Now, with the boards definitions in place, you can start a new PlatformIO project and select PlugAndPlay board from the list of supported boards.
+Now, with the boards definitions in place, you can start a new PlatformIO project and select Plug-n-Play board from the list of supported boards.
 ![Platform IO new project wizard](images/platformio-new-project-wizard.png)
 
 ### Second step
 After you create a new project, copy the `boards` and `variants` directories from the PlatformIO `core_dir` to your project directory.
 
-That's it. Now you can compile your code for the PlugAndPlay board and upload it to the development board from the PlatformIO environment.
+That's it. Now you can compile your code for the Plug-n-Play board and upload it to the development board from the PlatformIO environment.
 
 
 

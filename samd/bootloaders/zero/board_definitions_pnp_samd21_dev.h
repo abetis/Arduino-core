@@ -23,7 +23,7 @@
 /*
  * USB device definitions
  */
-#define STRING_PRODUCT "PlugAndPlay SAMD21 Dev"
+#define STRING_PRODUCT "Plug-n-Play SAMD21 Dev"
 #define USB_VID_HIGH   0x04
 #define USB_VID_LOW    0xD8
 #define USB_PID_HIGH   0xE5

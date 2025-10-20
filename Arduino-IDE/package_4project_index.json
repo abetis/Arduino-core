@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "4Project.co.il SAMD Boards (dependency: Arduino SAMD Boards 1.8.1)",
+          "name": "4Project.co.il SAMD Boards",
           "architecture": "samd",
           "version": "0.0.1",
           "category": "Contributed",
@@ -23,7 +23,7 @@
           },
           "boards": [
             {
-              "name": "PlugAndPlay SAMD21 Dev Board"
+              "name": "Plug-n-Play SAMD21 Dev Board"
             }
           ],
           "toolsDependencies": [
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "name": "4Project.co.il SAMD Boards (dependency: Arduino SAMD Boards 1.8.1)",
+          "name": "4Project.co.il SAMD Boards",
           "architecture": "samd",
           "version": "0.0.2",
           "category": "Contributed",
@@ -68,7 +68,7 @@
           },
           "boards": [
             {
-              "name": "PlugAndPlay SAMD21 Dev Board"
+              "name": "Plug-n-Play SAMD21 Dev Board"
             }
           ],
           "toolsDependencies": [
@@ -100,7 +100,7 @@
           ]
         },
         {
-          "name": "4Project.co.il SAMD Boards (dependency: Arduino SAMD Boards 1.8.1)",
+          "name": "4Project.co.il SAMD Boards",
           "architecture": "samd",
           "version": "0.0.3",
           "category": "Contributed",
@@ -113,7 +113,7 @@
           },
           "boards": [
             {
-              "name": "PlugAndPlay SAMD21 Dev Board"
+              "name": "Plug-n-Play SAMD21 Dev Board"
             }
           ],
           "toolsDependencies": [
