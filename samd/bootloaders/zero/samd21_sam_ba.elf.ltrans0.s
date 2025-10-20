@@ -3609,7 +3609,7 @@ exception_table:
 .LC23:
 	.ascii	" \000"
 .LC25:
-	.ascii	" Mar 28 2025 10:31:05\012\015\000"
+	.ascii	" Oct 16 2025 20:38:08\012\015\000"
 .LC27:
 	.ascii	"X\012\015\000"
 .LC29:
@@ -3623,5 +3623,5 @@ exception_table:
 .LC61:
 	.ascii	"Arduino LLC\000"
 .LC63:
-	.ascii	"PlugAndPlay SAMD21 Dev\000"
+	.ascii	"Plug-n-Play SAMD21 Dev\000"
 	.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]"
