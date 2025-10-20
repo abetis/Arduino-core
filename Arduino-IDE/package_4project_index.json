@@ -144,6 +144,38 @@
             }
           ]
         },
+        {
+          "name": "4Project.co.il SAMD Boards",
+          "architecture": "samd",
+          "version": "0.0.4",
+          "category": "Contributed",
+          "url": "https://github.com/4project-co-il/Arduino-core/raw/main/Arduino-IDE/4project-samd-0.0.4.zip",
+          "archiveFileName": "4project-samd-0.0.4.zip",
+          "checksum": "SHA-256:a21e20345e82c338a64e0214cb6127a95a2d0acb5dfc15bdf19e01db5580de9b",
+          "size": "5125903",
+          "help": {
+            "online": "https://github.com/4project-co-il/Arduino-core"
+          },
+          "boards": [
+            {
+              "name": "Plug-n-Play SAMD21 Dev Board"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
             },
             {
               "packager": "arduino",
